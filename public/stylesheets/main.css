@@ -1,0 +1,140 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+.parallax {
+    
+    /* The image used */
+    background-image: url("localImages/summerfun.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*rgba (red,green,blue, opacity)*/
+body .container .jumbotron{
+    background-color: rgba(238,238,238,0.6);
+}
+
+/*.class1.class2 are connected if in html <class="class1 class2">*/
+/*this selects for thumbnail listings on campgrounds index.ejs only*/
+.row.text-center .thumbnail {
+    background-color: rgba(255,255,255,0.6);
+}
+
+/*the captions and buttons font on campgrounds index.ejs*/
+/*lead class on campgrounds show.ejs*/
+.thumbnail .caption h4 strong, 
+.lead{
+    font-size: 3rem;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    text-shadow: blue 0px 0px 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.thumbnail p .btn-success {
+    font-size: 1.5rem;
+}
+
+/*selects for more thumbnail listings*/
+/*.row .thumbnail {*/
+/*    background-color: rgba(255,255,255,0.6);*/
+/*}*/
+
+.navbar-default .navbar-brand {
+    /*color: #2E2EE8;*/
+    font-family: 'Wendy One', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: yellow 0px 0px 15px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-default a.navbar-brand:hover{
+    color: greenyellow;
+     text-shadow: greenyellow 0px 0px 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    /*color: #777;*/
+    font-size: 1.8rem;
+    font-family: 'Exo 2', sans-serif;
+    
+    color: #fff;
+    text-shadow: yellow 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+     color: greenyellow;
+     /*font-weight: bolder;*/
+     text-shadow: greenyellow 0px 0px 5px;
+}
+
+
+a:hover.lead{
+    text-shadow: none;
+    color:blue;
+}
+
+.caption-full .entryTitle, .commentTitle{
+    font-size: 3.5rem;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    text-shadow: blue 1px 0px 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: greenyellow;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    color: orange;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 5rem;
+}
+
+.jumbotron p{
+    font-size: 3rem;
+}
+
+.navbar .container-fluid {
+    background-color: #4285F4;
+    color: #FFFF;
+    text-shadow: #FBBC05;
+    
+}
+
+.link{
+    color: greenyellow;
+}
+
+.commentStyle{
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    padding-bottom: 4%;
+}
